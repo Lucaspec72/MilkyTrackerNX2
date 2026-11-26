@@ -18,7 +18,13 @@ launch it from the homebrew menu on a Switch 2 with a homebrew/HEN loader.
 This section describes what shortcuts are added in the switch port, refer to the
 MilkyTracker readme for all keyboard shortcuts available.
 
-* Touch screen : tap to click (hold controller L or R to right click)
+* Switch 2 pointer: on Switch 2, Joy-Con pointers and USB mice are read
+  through libounce's native `nmouse` service — move the pointer for the cursor,
+  click normally (left/right/middle and scroll wheel are mapped). The
+  controller stick fallback below is used when no pointer device is connected.
+
+* Touch screen : tap to click (hold controller L or R to right click).
+  Touch is mapped across the full 1920x1080 panel, not a 720p corner.
 
 * Controllers shotcuts:
 	- Y → Keyboard CTRL
@@ -33,4 +39,5 @@ MilkyTracker readme for all keyboard shortcuts available.
 	- Stick → Mouse move (pushing on the stick allows you to change speed)
 	- Plus / Minus → Open on screen keyboard
 
-**Note:** USB keyboard and mouse are supported.
+**Note:** USB keyboard and mouse are supported. On Switch 2 the mouse is
+handled natively via libounce's `nmouse` (see above).

@@ -5,6 +5,15 @@ Unofficial Switch 2 port of [MilkyTrackerNX](https://github.com/retronx-team/Mil
 Ported by **Lucaspec72** with AI assistance. Version numbering is independent
 from upstream and starts at 1.0.0.
 
+## Unreleased (input update, 2026-11-26)
+
+- **Switch 2 native mouse**: Joy-Con pointers and USB mice are now read through
+  libounce's `nmouse` service and mapped to the tracker cursor, buttons and
+  wheel. The stick/trigger mouse fallback activates only when no native
+  pointer is present.
+- **Touchscreen fix**: touch input now uses the full 1920x1080 display instead
+  of only the top-left 720p-sized area.
+
 ## v1.0.0 (2026-11-26)
 
 Initial release of the Switch 2 port:

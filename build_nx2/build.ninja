@@ -230,6 +230,22 @@ build platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl/input.o: C_COMPILER__n
   OBJECT_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir
   OBJECT_FILE_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl
 
+build platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/nmouse.o: C_COMPILER__nxhooks_unscanned_Release /work/MilkyTrackerNX2/platforms/nx/nxhooks/src/nmouse.c || cmake_object_order_depends_target_nxhooks
+  DEFINES = -D__FORCE_SDL_AUDIO__
+  DEP_FILE = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/nmouse.o.d
+  FLAGS = -mcpu=cortex-a78c+crypto -mtp=soft -fPIC -ftls-model=local-exec -O2 -ffunction-sections -fdata-sections -mcpu=cortex-a78c+crypto -mtp=soft -ftls-model=local-exec -ffunction-sections -fdata-sections -D__SWITCH__ -D__SWITCH2__ -g -O2 -DNDEBUG -fPIC
+  INCLUDES = -I/work/MilkyTrackerNX2/platforms/nx/nxhooks/include -I/opt/devkitpro/portlibs/switch/include -I/opt/devkitpro/portlibs/switch/include/SDL2 -isystem /opt/devkitpro/libounce/include -isystem /opt/devkitpro/portlibs/switch2/include
+  OBJECT_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir
+  OBJECT_FILE_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src
+
+build platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/touch.o: C_COMPILER__nxhooks_unscanned_Release /work/MilkyTrackerNX2/platforms/nx/nxhooks/src/touch.c || cmake_object_order_depends_target_nxhooks
+  DEFINES = -D__FORCE_SDL_AUDIO__
+  DEP_FILE = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/touch.o.d
+  FLAGS = -mcpu=cortex-a78c+crypto -mtp=soft -fPIC -ftls-model=local-exec -O2 -ffunction-sections -fdata-sections -mcpu=cortex-a78c+crypto -mtp=soft -ftls-model=local-exec -ffunction-sections -fdata-sections -D__SWITCH__ -D__SWITCH2__ -g -O2 -DNDEBUG -fPIC
+  INCLUDES = -I/work/MilkyTrackerNX2/platforms/nx/nxhooks/include -I/opt/devkitpro/portlibs/switch/include -I/opt/devkitpro/portlibs/switch/include/SDL2 -isystem /opt/devkitpro/libounce/include -isystem /opt/devkitpro/portlibs/switch2/include
+  OBJECT_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir
+  OBJECT_FILE_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target nxhooks
@@ -238,7 +254,7 @@ build platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl/input.o: C_COMPILER__n
 #############################################
 # Link the static library platforms/nx/nxhooks/libnxhooks.a
 
-build platforms/nx/nxhooks/libnxhooks.a: C_STATIC_LIBRARY_LINKER__nxhooks_Release platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/init.o platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl/cursor.o platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl/input.o
+build platforms/nx/nxhooks/libnxhooks.a: C_STATIC_LIBRARY_LINKER__nxhooks_Release platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/init.o platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl/cursor.o platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/sdl/input.o platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/nmouse.o platforms/nx/nxhooks/CMakeFiles/nxhooks.dir/src/touch.o
   LANGUAGE_COMPILE_FLAGS = -mcpu=cortex-a78c+crypto -mtp=soft -fPIC -ftls-model=local-exec -O2 -ffunction-sections -fdata-sections -mcpu=cortex-a78c+crypto -mtp=soft -ftls-model=local-exec -ffunction-sections -fdata-sections -D__SWITCH__ -D__SWITCH2__ -g -O2 -DNDEBUG
   OBJECT_DIR = platforms/nx/nxhooks/CMakeFiles/nxhooks.dir
   POST_BUILD = :

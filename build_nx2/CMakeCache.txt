@@ -369,9 +369,6 @@ ZLIB_LIBRARY_RELEASE:FILEPATH=/opt/devkitpro/portlibs/switch/lib/libz.a
 ZZIPLIB_DIR:PATH=/opt/devkitpro/portlibs/switch/lib/cmake/zziplib
 
 //No help, variable specified on the command line.
-ZZIPLIB_INCLUDE_DIR:UNINITIALIZED=/opt/devkitpro/portlibs/switch/include
-
-//No help, variable specified on the command line.
 ZZIPLIB_LIBRARIES:UNINITIALIZED=/opt/devkitpro/portlibs/switch/lib/libzzip.a
 
 //Dependencies for the target
