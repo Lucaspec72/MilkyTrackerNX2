@@ -9,8 +9,7 @@ tracker runs on the newer console.
 
 > [!WARNING]
 > **AI-assisted, unofficial port.** The Switch 2 porting work, build tooling
-> and documentation were created with AI assistance (OpenCode running
-> GLM-5.3). It is unofficial — not affiliated with or endorsed by the original
+> and documentation were created with AI assistance (OpenCode). It is unofficial — not affiliated with or endorsed by the original
 > authors. It builds, but on-console validation is still in progress; see
 > [`PORT_NOTES.md`](PORT_NOTES.md) for the technical record and open risks. Use
 > at your own risk. For the supported experience, use the original
