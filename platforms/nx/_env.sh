@@ -1,0 +1,3 @@
+APP_TITLE="MilkyTrackerNX2"
+APP_AUTHOR="Lucaspec72"
+APP_VERSION="1.0.0-nx2.0"

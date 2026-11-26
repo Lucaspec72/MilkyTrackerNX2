@@ -1,0 +1,6 @@
+#pragma once
+
+#define NX_SCREEN_WIDTH 1920
+#define NX_SCREEN_HEIGHT 1080
+#define NX_DISPLAY_WIDTH 425
+#define NX_DISPLAY_HEIGHT 240
